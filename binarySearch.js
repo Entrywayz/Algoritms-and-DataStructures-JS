@@ -9,7 +9,6 @@ function binarySearch(array, item) {
     let position = -1
 
     while(found === false && start <= end) {
-        c++
         middle = Math.floor((start + end) / 2)
         if(array[middle] === item) {
             found = item
